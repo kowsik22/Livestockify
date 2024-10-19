@@ -184,6 +184,7 @@ p {
 
   .section {
     padding: 20px;
+    width: 100%;
   }
 
   .metric {

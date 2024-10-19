@@ -64,7 +64,7 @@ const DataVisualization = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
-        setChartWidth(window.innerWidth - 50); // Reducing width for small screens
+        setChartWidth(window.innerWidth - 100); // Reducing width for small screens
       } else {
         setChartWidth(900);
       }
