@@ -12,7 +12,7 @@ const DeviceManagement = () => {
   return (
     <div className="section">
       <h3>Device Management</h3>
-      <b>Click on view details button to know furthur information</b>
+      <p>Click on view details button for better understanding</p>
 
       <div className="grid">
         {devices.map((device) => (
